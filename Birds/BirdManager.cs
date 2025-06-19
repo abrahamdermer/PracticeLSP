@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LSPתרגול.Birds
+{
+    internal class BirdManager
+    {
+        public static void MakeBirdFly(BirdABS b)
+        {
+            b.Flay();
+        }
+        public static void NewMakeBirdFly(ICanFly b)
+        {
+            b.Fly();
+        }
+    }
+}
