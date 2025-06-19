@@ -11,8 +11,10 @@ namespace LSPתרגול
     {
         static void Main(string[] args)
         {
-            //BirdManager.MakeBirdFly(new Penguin());
+            //BirdManager.MakeBirdFly(new Penguin()); // שגיאה הוא לא יכול לעוף
             BirdManager.NewMakeBirdFly(new NewNormalBird());
+            //BirdManager.NewMakeBirdFly(new NewPenguin()); // שגיאה הוא לא יורש תעופה
+
         }
     }
 }
